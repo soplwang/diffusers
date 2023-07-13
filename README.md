@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ./train.sh
 ```
 
-训练中断时，可以使用 `./train.sh --resume_from_checkpoint latest` 继续训练。
+训练中断时，可以使用 `./train.sh --resume_from_checkpoint=latest` 继续训练。
 
 使用模型
 ----

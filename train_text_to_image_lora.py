@@ -358,6 +358,7 @@ def parse_args():
 
 DATASET_NAME_MAPPING = {
     "lambdalabs/pokemon-blip-captions": ("image", "text"),
+    "animelover/danbooru2022": ("image", "tags"),
 }
 
 
