@@ -3,15 +3,13 @@ Diffusers on macOS Quickstart
 
 开发环境
 ----
-1. VSCode + Python Extension Pack（含 Python & Jupyter Notebook 支持）
-2. Homebrew (https://brew.sh)
-3. Command Line Tools for Xcode (安装 Homebrew 时，按提示即可自动安装)
-4. Python 3.10+（Homebrew 安装）
+1. Command Line Tools for Xcode（内置 Python 3.9.6）
+2. VSCode + Python Extension Pack（含 Python & Jupyter Notebook 支持）
 
-安装 Python 3.10+
+安装 Command Line Tools for Xcode
 ----
 ```bash
-brew install python@3.10
+xcode-select --install
 ```
 
 初始化 venv
@@ -19,7 +17,7 @@ brew install python@3.10
 ```bash
 mkdir -p ~/Projects/diffusers
 cd ~/Projects/diffusers
-python3.10 -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
